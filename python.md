@@ -454,6 +454,21 @@ json.loads():    ## 对数据进行解码。
 ![82bbaa491a48ecfa7a40ea715a65b5dc.png](en-resource://database/4964:1)
 * `repr() `函数：将对象转化为供解释器读取的形式
 * 处理文件` json.dump() `、` json.load()`
+
+[python读写json文件](https://www.cnblogs.com/bigberg/p/6430095.html)
+
+pickle我有点看不懂，对象序列化有点懵
+[pickle保存数据](https://docs.python.org/zh-cn/3.8/library/pickle.html)
+ 
+excel读写
+```
+import xldr
+
+data = xldr.open_workbook('文件路径')
+
+```
+
+
   #### time包 
   
   
